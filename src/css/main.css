@@ -12,3 +12,113 @@ img,
 video {
   display: block;
 }
+
+h1 {
+  display: none;
+}
+
+body {
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ban1,
+.ban2,
+.ban3,
+.ban4,
+.ban5 {
+  background-color: #219ebc;
+  border: 1px solid #146c81;
+  height: 130px;
+}
+
+.banner1 {
+  display: flex;
+  flex-direction: row;
+  background: #8ecae6;
+  height: 230px;
+  align-items: center;
+}
+
+.ban1 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background: #8ecae6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.ban2 {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.banner3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 230px;
+  background: #8ecae6;
+}
+
+.ban3 {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.banner4 {
+  display: flex;
+  height: 450px;
+  align-items: end;
+  background: #8ecae6;
+  gap: 20px;
+  padding-bottom: 50px;
+  justify-content: end;
+  padding-right: 50px;
+}
+
+.ban4 {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.banner5 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: #8ecae6;
+}
+
+.ban5 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-left: 35px;
+}
